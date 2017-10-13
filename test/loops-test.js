@@ -1,6 +1,6 @@
 /*global describe, it*/
 
-const chai = require('chai')
+const chai = require('chai').expect
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
