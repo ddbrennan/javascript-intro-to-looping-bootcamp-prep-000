@@ -23,7 +23,7 @@ function makeArray() {
 
 describe('loops', () => {
   jsdom({
-    src: fs.readFileSync(path.resolve(__dirname, '..', 'loops.js'), 'utf-8')
+    src: fs.readFileSync(path.resolve(__dirname, '..', 'newloops.js'), 'utf-8')
   })
 
   describe('forLoop(array)', () => {
