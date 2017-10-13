@@ -28,6 +28,6 @@ function maybeTrue() {
 }
 */
 
-function forLoop() {
-  
+function forLoop(array) {
+  return array
 }
